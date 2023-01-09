@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Estatico</title>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/8e58209530.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="frontend/accets/css/style.css">
+</head>
+
+<body >
+    <div class="wrapper">
+    <nav class="navbar  flex-nowrap navbar-expand-lg  fixed-top" >
+        <div class="container">
+            <a href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa" class="navbar-brand has-logo
+            ">
+              <span class="logoargentinaprograma">
+                <img src= "frontend/accets/img/logoYoProgramo.png" alt="argentina-programa"  >
+              </span>
+            </a>
+        </div>
+            <!--iconos de redes sociales-->
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item">
+                    <a href="https://www.Instagram.com/polirrubros_codigo_urbano2020" class="icon-instagram">
+                    <i class="ri-isntagram-line"></i>
+                    <span class="logoInstegram">
+                    <img src= "frontend/accets/img/logoInstagram.png" alt="Instagram" width="40" height="40">
+                    </span>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://mobile.twitter.com/germedi83" class="icon-twitter">
+                    <i class="ri-twitter-line"></i>
+                    <span class="logoTwitter">
+                    <img src= "frontend/accets/img/logotwitter.png" alt="Twitter" width="40" height="40">
+                    </span>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://wwww.facebook.com/gerardomedinav" class="icon-facebook">
+                    <i class="ri-facebook-line"></i>
+                    <span class="logofacebook">
+                    <img src= "frontend/accets/img/logoFacebook.png" alt="facebook" width="50" height="50">
+                    </span>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://github.com/Gerardomedinav" class="icon-github">
+                    <i class="ri-github-line"></i>
+                    <span class="logogithub">
+                    <img src= "frontend/accets/img/logoGitHub.png" alt="github" width="40" height="40">
+                    </span>
+                    </a>
+                </li>
+                    <!-- Button trigger modal LOGIN-->
+                  <li class="list-group-item">
+                    <input id="inpLock" type="checkbox" checked="checked" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <label class="btn-lock" for="inpLock">
+                    <svg width="3.6vw" height="3.6vw" viewBox="0 0 36 40">
+                    <path class="lockb" d="M27 27C27 34.1797 21.1797 40 14 40C6.8203 40 1 34.1797 1 27C1 19.8203 6.8203 14 14 14C21.1797 14 27 19.8203 27 27ZM15.6298 26.5191C16.4544 25.9845 17 25.056 17 24C17 22.3431 15.6569 21 14 21C12.3431 21 11 22.3431 11 24C11 25.056 11.5456 25.9845 12.3702 26.5191L11 32H17L15.6298 26.5191Z"></path>
+                    <path class="lock" d="M6 21V10C6 5.58172 9.58172 2 14 2V2C18.4183 2 22 5.58172 22 10V21"></path>
+                    <path class="bling" d="M29 20L31 22"></path>
+                    <path class="bling" d="M31.5 15H34.5"></path>
+                    <path class="bling" d="M29 10L31 8"></path>
+                    </svg>
+                    </label> 
+                  </li>
+              </ul>
+                
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="mb-3 row">
+                                        <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                                        <div class="col-sm-10">
+                                            <input type="text"  class="form-control-plaintext" id="staticEmail" value="email@example.com">
+                                        </div>
+                                    </div>
+                                    <div class="mb-3 row">
+                                        <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+                                        <div class="col-sm-10">
+                                        <input type="password" class="form-control" id="inputPassword">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">Iniciar Seccion</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div> 
+    </nav>
+    <!-- Contenido Principal-->
+    <main class="main">
+      <section>
+        <h1> <span class="actual-text">&nbsp;<strong>Gerardo Medina</strong>&nbsp;</span>
+          <span class="hover-text" aria-hidden="true">&nbsp;<strong>Gerardo Medina</strong>&nbsp;</span></h1>
+          <h2> <span class="actual-text">&nbsp;Full Stack Developer Junior&nbsp;</span>
+            <span class="hover-text" aria-hidden="true">&nbsp;Full Stack Developer Junior&nbsp;</span></h2>
+            <div class="accordion" id="accordionExample" data-responsive-accordion-tabs="accordion large-tabs">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <h2><span>Sobre Mi</span></h2>
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Me encuentro en Formosa Argentina, tengo una gran pasión por los efectos del diseño de interfaz de usuario, las animaciones y la creación de experiencias de usuario intuitivas y dinámicas.
+                      Persona bien organizada, solucionador de problemas, empleado independiente con gran capacidad de atención.
+                      Una Persona de familia y padre de 4 niñ@s que son mi todo.
+                      Interesado en trabajar con personas positivas y dispuestas a soprenderme con lo que saben hacer.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                      <h2><span>Mis Habilidades</span></h2> 
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Gracias a mis profesores y tutores durante mi aprendizaje, adquiri conocimientos en el desarrollo de front-end, HTML, CSS, JS, la creación de aplicaciones web pequeñas y medianas, complementos personalizados, funciones, animaciones y codificación de diseños interactivos, back-end, base de datos y trabajar en equipo con la herramienta potente como GitHub.
+                      También tengo conocimientos en programación de lenguajes C, C++, Visual Basic, Java.
+                      Para mas detalles sobre mi capacitación descargue mi CV o Contacteme. 
+                    </div>
+                        <div class="progress">
+                          <div class="progress-bar" style="width:75%;">
+                              <span class="progress-bar-text">HTML 75%</span>
+                          </div>
+                      </div>
+                      <div class="progress">
+                        <div class="progress-bar" style="width:50%;">
+                            <span class="progress-bar-text">CSS 50%</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" style="width:45%;">
+                          <span class="progress-bar-text">JavaScript 45%</span>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar" style="width:60%;">
+                          <span class="progress-bar-text">GitHub 60%</span>
+                      </div>
+                    </div>
+                    <div class="progress">
+                    <div class="progress-bar" style="width:75%;">
+                      <span class="progress-bar-text">C, C++ 75%</span>
+                  </div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width:60%;">
+                    <span class="progress-bar-text">OTROS LENGUEJES DE Programación 60%</span>
+                </div>
+              </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <h2><span> Estudios</span></h2>
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Bachillerato Técnico como Auxiliar Contable, Colegio Secundario<br>
+                      Doc. Ignacio A. Pane<br>
+                      febrero 1997 - diciembre 2003<br>
+                      Universidad Católica Ntra. Sra. de la Asunción (LIC. EN ANALISIS<br>
+                      DE SISTEMAS INFORMATICOS - (SIN CONCLUIR))<br>
+                      febrero 2004 - 2006<br>
+                      Conceptos sólidos de programación, metodología de<br>
+                      implementación de buena programación, Lenguajes de<br>
+                      Programación: C, C++, Visual Basic<br>
+                      Técnico Superior en Análisis y Diseño de Software, Universidad<br>
+                      Nacional Autónoma de Formosa<br>
+                      mayo 2022 - Presente<br>
+                      Cursando Actualmente<br>
+                      Desarrollador Web Full Stack, Ministerio de Desarrollo Pruductivo<br>
+                      Argentina<br>
+                      febrero 2022 - Presente<br>
+                      -Front End: Estructura y estilos: HTML, CSS y framework como<br>
+                      Bootstrap, Lenguaje programación: TypeScrypt y el framework<br>
+                      como Angular ambos basados en Javascript<br>
+                      -Back End: Base de datos: Lenguaje: Java con Framework Spring<br>
+                      Boot, Web server: Apache Tomcat<br>
+                      -Git Hub <br>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <h2><span>Experiencia Laboral</span></h2>
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Código Urbano (Tienda de Ropa Deportiva), Belgrano Nro. 885 - Formosa<br>
+                        abril 2015 - Presente<br>
+                        Cargo: Propietario<br>
+                        Adquirí cualidades como: trabajo en equipo, administración,<br>
+                        servicio especializado en atención al cliente, comunicación,<br>
+                        capacidad organizativa, pensamiento crítico, creatividad,<br>
+                        adaptabilidad, liderazgo, resolución de problemas, iniciativa,<br>
+                        gestioné multiples proyectos, implementación de marketing<br>
+                        publicitario a través de redes sociales.<br>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    <h2><span>Proyectos</span></h2>
+                    </button>
+                  </h2>
+                  <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Porfolio Personal<br>
+                        30 de Agosto - Presente<br>
+                        <a href=""> Este es el link del Porfolio </a>
+                        <a href="" class="img-porfolio">
+                          <img class="img-porfolio" src= "frontend/accets/img/imagen-porfolio.png" alt="imagen porfolio" width="50vw" height="50vw">
+                        </a>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    <h2><span>Contactame</span></h2>
+                    </button>
+                  </h2>
+                  <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="modal-body">
+                        <form>
+                          <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Email</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                          </div>
+                          <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Mensaje:</label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Enviar Mensaje</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  
+                
+              </div>
+         
+       
+    </section>
+    <aside>
+        <div class="yo">
+            <div style="position: relative; left: 0; top: 0;">
+        <img src="frontend/accets/img/yo.PNG" class='foto_'/>
+        </div>
+
+        <!--boton descargar curriculum-->
+        <a download href="frontend/accets/CV - Gerardo Medina Villalba.pdf"> 
+          <button type="button" class="button">
+          <i class= "img_download"></i>
+          <img src="frontend/accets/img/nota.png" class='download'/> 
+          Download CV</button>
+        </a>
+    </aside>
+  </main>    
+</div > <!--fin wrapper-->
+    
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>  
+</body>
+</html>
