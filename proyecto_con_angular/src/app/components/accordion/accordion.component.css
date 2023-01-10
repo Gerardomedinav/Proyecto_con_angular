@@ -1,0 +1,49 @@
+/* acordion sobre mi */
+.accordion {
+    --darkreader-bg--bs-accordion-bg: none;
+    --darkreader-border--bs-accordion-border-color: none;
+    --darkreader-bg--bs-accordion-active-bg: none;
+    
+    --bs-accordion-bg: transparent; 
+    --bs-accordion-border-color: none; 
+    --bs-accordion-btn-color:none;
+    --bs-accordion-color:rgb(244, 244, 250);
+    backdrop-filter: brightness(150%);
+    background-color: transparent;
+    margin-top: -600px;
+    
+      }
+    div.accordion-body{
+    background-color: black;
+    
+    border: black;
+    font-size: 1vw;
+    
+    }
+    .progress {
+      height: 35px;
+      width: 100%;
+      border: 1px solid #428bca;
+      border-radius: 5px;
+      background-color: #e6f3fa;
+      margin-bottom: 15px;
+    }
+    
+    .progress-bar {
+      height: 100%;
+      background: #428bca;
+      display: flex;
+      align-items: center;
+      transition: width 0.25s;
+      border-radius: 5px;
+    }
+    
+    .progress-bar-text {
+      margin-left: 10px;
+      font-weight: bold;
+      color: #cce7f5;
+    }
+    .imgPorfolio.img{
+      width: 50px;
+      height: 50px;
+    }

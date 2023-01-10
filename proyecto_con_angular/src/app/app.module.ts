@@ -8,6 +8,12 @@ import { LogoApComponent } from './components/logo-ap/logo-ap.component';
 import { SocialComponent } from './components/social/social.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
+import { FotoDePerfilComponent } from './components/foto-de-perfil/foto-de-perfil.component';
+import { DescargaCurriculumComponent } from './components/descarga-curriculum/descarga-curriculum.component';
+import { CurriculumPdfComponent } from './components/curriculum-pdf/curriculum-pdf.component';
+import { NombreComponent } from './components/nombre/nombre.component';
+import { TituloComponent } from './components/titulo/titulo.component';
+import { AccordionComponent } from './components/accordion/accordion.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +22,13 @@ import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
     LogoApComponent,
     SocialComponent,
     BannerComponent,
-    AcercaDeComponent
+    AcercaDeComponent,
+    FotoDePerfilComponent,
+    DescargaCurriculumComponent,
+    CurriculumPdfComponent,
+    NombreComponent,
+    TituloComponent,
+    AccordionComponent
   ],
   imports: [
     BrowserModule,
