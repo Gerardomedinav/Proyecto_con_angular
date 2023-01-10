@@ -1,0 +1,9 @@
+#logoAp{
+    width: 150px;
+    height: auto;
+    margin: 2vh;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-between;
+    
+}
