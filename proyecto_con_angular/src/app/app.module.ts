@@ -14,6 +14,7 @@ import { CurriculumPdfComponent } from './components/curriculum-pdf/curriculum-p
 import { NombreComponent } from './components/nombre/nombre.component';
 import { TituloComponent } from './components/titulo/titulo.component';
 import { AccordionComponent } from './components/accordion/accordion.component';
+import { ModalLoginComponent } from './components/modal-login/modal-login.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { AccordionComponent } from './components/accordion/accordion.component';
     CurriculumPdfComponent,
     NombreComponent,
     TituloComponent,
-    AccordionComponent
+    AccordionComponent,
+    ModalLoginComponent
   ],
   imports: [
     BrowserModule,
